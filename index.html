@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f71d68cc0b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container"></div>
+        <nav>
+            <img src="Images/logo-light-gold.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" style="color: #937215;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #937215;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Website Developer</p>
+            <h1>Hi, I'm <span>Jerard Villena</span><br>From the Philippines</h1>
+        </div>
+    </div>
+    <!-- --------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Headshot.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Meet Jerard, an experienced content creator, and an all-things tech guy. He's here to help guide
+                        you through the landscape of Sweepstakes casinos, one review at a time. Jerard’s passion for
+                        producing high-quality content that’s useful to the readers is always his top priority. Being a
+                        lifelong gamer has given him the skill to quickly distinguish what games in a casino's library
+                        are good or bad, to ultimately give you the best recommendations. Aside from work, Jerard loves
+                        traveling around his home country, the Philippines. A country composed of thousands of islands
+                        and with a very diverse culture where there’s always something new to learn or explore.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Website Developer</span><br>Creating Websites</li>
+                            <li><span>Content Creator/Writer</span><br>Writes Contents/Blogs/Reviews</li>
+                            <li><span>Data Specialist</span><br>Experienced Data Specialist</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Self Taught Website Development</li>
+                            <li><span>2023 - Current</span><br>Content Creator/Writer at SweepCasinos</li>
+                            <li><span>2021 - Current</span><br>Senior Data Specialist at Luxury Presence Inc.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>University of Caloocan City</li>
+                            <li><span>2012</span><br>Sampaguita High School</li>
+                            <li><span>2006</span><br>Sampaguita Elementary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-spin"></i>
+                    <h2>Website Developer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sequi assumenda accusantium
+                        libero? Aliquam dolorem, laudantium nesciunt, iusto fugiat labore libero cumque officia
+                        obcaecati ab doloremque provident laboriosam, in tenetur.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen fa-spin"></i>
+                    <h2>Content Creator/Writer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sequi assumenda accusantium
+                        libero? Aliquam dolorem, laudantium nesciunt, iusto fugiat labore libero cumque officia
+                        obcaecati ab doloremque provident laboriosam, in tenetur.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple fa-spin"></i>
+                    <h2>Data Specialist</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sequi assumenda accusantium
+                        libero? Aliquam dolorem, laudantium nesciunt, iusto fugiat labore libero cumque officia
+                        obcaecati ab doloremque provident laboriosam, in tenetur.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Work1.jpg">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>The first website I've created upon studying Website Development.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work2.jpg">
+                    <div class="layer">
+                        <h3>SweepCasinos</h3>
+                        <p>We are one of the biggest Sweepstakes and social casino affiliate sites currently on the
+                            market and we are consistently doing our best, with the intention of being the best. There’s
+                            just no other way of doing it. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work3.jpg">
+                    <div class="layer">
+                        <h3>Luxury Presence</h3>
+                        <p>Luxury Presence is an all-in-one growth marketing platform, powering the power players in real estate.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> jrrdvlln@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +639226421417</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Raawrd"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/raaaaawrd/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jerard-villena-530b9222b/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © JVillena. <i class="fa-solid fa-lock"></i> All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyV-yLZwBg3BuV9QeXOfniyrVOkgY6n1mnNze2KJhACYRYkQo-FnEpOO7hu_TUmUNhE/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+                },5000)
+                form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
